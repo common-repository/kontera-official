@@ -1,0 +1,217 @@
+table {
+border-collapse: collapse;
+border-spacing: 0;
+border:0;
+}
+
+table.main_settings {
+border-collapse: collapse;
+border-spacing: 0;
+cellspacing:5;
+//width: 950px;
+width: 60%;
+margin-top:20px;
+border:0;
+}
+
+table.main_settings td {
+padding:15px 10px;
+}
+
+table.main_settings td.headline {
+width:30%;
+vertical-align: top;
+}
+
+table.main_settings td.content {
+width:51%;
+vertical-align: top;
+}
+
+table.main_settings h3 {
+margin: 1px;
+}
+
+
+h3 {
+font-size: 13px;
+font-weight: bold;
+}
+
+.kontera_publisher_id, .kontera_mobile_id {width:270px;}
+
+.kontera_disable_new_days {width:100px;}
+
+.kontera_block_pages {
+width:440px;
+padding:10px 5px;
+border: 1px solid #DFDFDF;
+background-color: white;
+min-height: 90px;
+overflow-y: auto;
+max-height: 100px;
+}
+
+.kontera_block_pages li{
+display: block;
+line-height: 20px;
+vertical-align: top;
+}
+
+.kontera_block_pages b{
+font-weight: normal;
+color: #565656;
+padding-left: 10px;
+}
+
+.kontera_block_pages li img{
+padding-right: 5px;
+}
+
+.kontera_color_select {float:left;}
+
+.kontera_disabled_pages {
+width: 460px;
+height: 120px;
+overflow-y: scroll;
+max-height: 120px;
+}
+
+.new_block_post {width: 410px; margin-right: 10px;}
+
+.blocksubmit {padding:2px 5px; background:#fff;}
+
+p.submit {
+//width: 940px;
+width: 60%;
+margin-bottom: 40px;
+}
+
+.submit-settings {float: right;}
+
+
+/*block posts list scrollbar*/
+
+/* Turn on a 8x20 scrollbar */
+.kontera_block_pages::-webkit-scrollbar {
+    width: 8px;
+    height: 20px;
+}
+ 
+.kontera_block_pages::-webkit-scrollbar-button:vertical {
+    display: none;
+}
+ 
+/* Turn on single button up on top, and down on bottom */
+.kontera_block_pages::-webkit-scrollbar-button:start:decrement,
+.kontera_block_pages::-webkit-scrollbar-button:end:increment {
+    display: none;
+}
+ 
+/* Turn off the down area up on top, and up area on bottom */
+.kontera_block_pages::-webkit-scrollbar-button:vertical:start:increment,
+.kontera_block_pages::-webkit-scrollbar-button:vertical:end:decrement {
+    display: none;
+}
+ 
+/* Place The scroll down button at the bottom */
+.kontera_block_pages::-webkit-scrollbar-button:vertical:increment {
+    display: none;
+}
+ 
+/* Place The scroll up button at the up */
+.kontera_block_pages::-webkit-scrollbar-button:vertical:decrement {
+	display: none;
+}
+ 
+.kontera_block_pages::-webkit-scrollbar-track:vertical {
+	display: none;
+}
+ 
+/* Top area above thumb and below up button */
+.kontera_block_pages::-webkit-scrollbar-track-piece:vertical:start {
+	display: none;
+}
+ 
+/* Bottom area below thumb and down button */
+.kontera_block_pages::-webkit-scrollbar-track-piece:vertical:end {
+	display: none;
+}
+ 
+/* Track below and above */
+.kontera_block_pages::-webkit-scrollbar-track-piece {
+	display: none;
+}
+ 
+/* The thumb itself */
+.kontera_block_pages::-webkit-scrollbar-thumb:vertical {
+    height: 40px;
+    background-color: #b9b9b9;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+ 
+/* Corner */
+.kontera_block_pages::-webkit-scrollbar-corner:vertical {
+	display: none;
+}
+ 
+/* Resizer */
+.kontera_block_pages::-webkit-scrollbar-resizer:vertical {
+	display: none;
+}
+
+.pubid {
+	width:200px;
+
+}
+
+.pubid input{
+color:red;
+}
+
+input:-moz-placeholder{
+color:#a0a0a0;
+}
+
+
+#mobalert {
+border: 1px solid red;
+padding: 4px;
+margin-bottom: -56px;
+position: relative;
+float:inherit;
+left: 208px;
+top: -42px;
+font-style: italic;
+color: grey;
+width:420px;
+display: block;
+//visibility: visible;
+}
+
+.mobstyle {
+display: block;
+}
+
+td.content a {
+color: #219a99;
+}
+
+td.content a:hover {
+color: #06b617;
+}
+
+#mobhint {
+font-weight: regular;
+color: #219a99;
+font-style: italic;
+}
+
+#kontera_show_mobile_opt {
+ padding: 0px;
+ margin-bottom: -10px;
+}
+
